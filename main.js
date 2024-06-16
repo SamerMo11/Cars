@@ -161,60 +161,60 @@ color1.addEventListener('click', function(){
     document.body.classList.remove('red');
     document.body.classList.remove('silver');
     document.body.classList.remove('blue');
-    homeimg.src="images/home.png";
-    designimg.src="images/design1.png";
-    featuersimg.src="images/feature1.png";
-    contactimg.src="images/y1.jpg";
-    gallimg.src="images/y1.jpg";
-    gall1.src="images/y2.jpg";
-    gall2.src="images/y3.jpg";
-    gall3.src="images/y4.jpg";
-    gall4.src="images/y5.jpg";
+    homeimg.src="home.png";
+    designimg.src="design1.png";
+    featuersimg.src="feature1.png";
+    contactimg.src="y1.jpg";
+    gallimg.src="y1.jpg";
+    gall1.src="y2.jpg";
+    gall2.src="y3.jpg";
+    gall3.src="y4.jpg";
+    gall4.src="y5.jpg";
 })
 color2.addEventListener('click', function(){
     document.body.classList.remove('yellow');
     document.body.classList.add('red');
     document.body.classList.remove('silver');
     document.body.classList.remove('blue');
-    homeimg.src="images/home2.png";
-    designimg.src="images/design2.png";
-    featuersimg.src="images/feature2.png";
-    contactimg.src="images/r1.jpg";
-    gallimg.src="images/r1.jpg";
-    gall1.src="images/r2.png";
-    gall2.src="images/r3.jpg";
-    gall3.src="images/r4.jpg";
-    gall4.src="images/r5.jpg";
+    homeimg.src="home2.png";
+    designimg.src="design2.png";
+    featuersimg.src="feature2.png";
+    contactimg.src="r1.jpg";
+    gallimg.src="r1.jpg";
+    gall1.src="r2.png";
+    gall2.src="r3.jpg";
+    gall3.src="r4.jpg";
+    gall4.src="r5.jpg";
 })
 color3.addEventListener('click', function(){
     document.body.classList.remove('yellow');
     document.body.classList.remove('red');
     document.body.classList.add('silver');
     document.body.classList.remove('blue');
-    homeimg.src="images/home3.png";
-    designimg.src="images/design3.png";
-    featuersimg.src="images/feature3.png";
-    contactimg.src="images/s1.jpg";
-    gallimg.src="images/s1.jpg";
-    gall1.src="images/s2.jpg";
-    gall2.src="images/s3.jpg";
-    gall3.src="images/s4.jpg";
-    gall4.src="images/s5.jpg";
+    homeimg.src="home3.png";
+    designimg.src="design3.png";
+    featuersimg.src="feature3.png";
+    contactimg.src="s1.jpg";
+    gallimg.src="s1.jpg";
+    gall1.src="s2.jpg";
+    gall2.src="s3.jpg";
+    gall3.src="s4.jpg";
+    gall4.src="s5.jpg";
 })
 color4.addEventListener('click', function(){
     document.body.classList.remove('yellow');
     document.body.classList.remove('red');
     document.body.classList.remove('silver');
     document.body.classList.add('blue');
-    homeimg.src="images/home4.png";
-    designimg.src="images/design4.png";
-    featuersimg.src="images/feature4.png";
-    contactimg.src="images/b3.jpg";
-    gallimg.src="images/b1.jpg";
-    gall1.src="images/b2.jpg";
-    gall2.src="images/b3.jpg";
-    gall3.src="images/b4.jpg";
-    gall4.src="images/b5.jpg";
+    homeimg.src="home4.png";
+    designimg.src="design4.png";
+    featuersimg.src="feature4.png";
+    contactimg.src="b3.jpg";
+    gallimg.src="b1.jpg";
+    gall1.src="b2.jpg";
+    gall2.src="b3.jpg";
+    gall3.src="b4.jpg";
+    gall4.src="b5.jpg";
 })
 
 
@@ -264,36 +264,3 @@ row4.addEventListener('click', function(){
     row2.classList.remove('active');
     row3.classList.remove('active');
 })
-// ---------------------------------------------------
-// ----------------EXAMPLE-OF-FUNCTION----------------
-// ---------------------------------------------------
-// let btn = document.getElementsByClassName('btn');
-// let box = document.getElementsByClassName('box');
-
-
-// for(let i = 0 ; i < btn.length; i++){
-//     btn[i].onclick = function(){
-//         box[i].style.cssText = `
-//         opacity:0;
-//         `;
-//     }
-// }
-
-// ---------------------------------------------------------------
-// ---------------------DARK-LIGHT-MODES--------------------------
-// ---------------------------------------------------------------
-
-// let moon = document.getElementById('moon');
-// let sun = document.getElementById('sun');
-
-// moon.addEventListener('click', function(){
-//     document.body.classList.remove('light');
-//     this.style.display='none';
-//     sun.style.display='block';
-// })
-
-// sun.addEventListener('click', function(){
-//     document.body.classList.add('light');
-//     this.style.display='none';
-//     moon.style.display='block';
-// })
